@@ -1,0 +1,23 @@
+{
+    "name": "thepurpleblob/museum",
+    "description": "Museum collection",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Howard Miller",
+            "email": "howardsmiller@gmail.com"
+        }
+    ],
+    "require": {
+        "mustache/mustache": "^2.13",
+        "bramus/router": "^1.5",
+        "vlucas/phpdotenv": "^5.3",
+        "filp/whoops": "^2.9"
+    },
+    "autoload": {
+        "psr-4": {
+          "Purpleblob\\":"src/"
+        }
+    }
+}
